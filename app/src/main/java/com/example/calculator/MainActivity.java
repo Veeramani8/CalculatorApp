@@ -53,43 +53,43 @@ public class MainActivity extends AppCompatActivity {
                 appendNumber("0");
             }
         });
-        Button button1 = findViewById(R.id.button0);
-        button0.setOnClickListener(new View.OnClickListener() {
+        Button button1 = findViewById(R.id.button1);
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 appendNumber("1");
             }
         });
-        Button button2 = findViewById(R.id.button0);
-        button0.setOnClickListener(new View.OnClickListener() {
+        Button button2 = findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 appendNumber("2");
             }
         });
-        Button button3 = findViewById(R.id.button0);
-        button0.setOnClickListener(new View.OnClickListener() {
+        Button button3 = findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 appendNumber("3");
             }
         });
-        Button button4 = findViewById(R.id.button0);
-        button0.setOnClickListener(new View.OnClickListener() {
+        Button button4 = findViewById(R.id.button4);
+        button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 appendNumber("4");
             }
         });
-        Button button5 = findViewById(R.id.button0);
-        button0.setOnClickListener(new View.OnClickListener() {
+        Button button5 = findViewById(R.id.button5);
+        button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 appendNumber("5");
             }
         });
-        Button button6 = findViewById(R.id.button0);
-        button0.setOnClickListener(new View.OnClickListener() {
+        Button button6 = findViewById(R.id.button6);
+        button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 appendNumber("6");
@@ -102,15 +102,15 @@ public class MainActivity extends AppCompatActivity {
                 appendNumber("7");
             }
         });
-        Button button8 = findViewById(R.id.button0);
-        button0.setOnClickListener(new View.OnClickListener() {
+        Button button8 = findViewById(R.id.button8);
+        button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 appendNumber("8");
             }
         });
-        Button button9 = findViewById(R.id.button0);
-        button0.setOnClickListener(new View.OnClickListener() {
+        Button button9 = findViewById(R.id.button9);
+        button9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 appendNumber("9");
