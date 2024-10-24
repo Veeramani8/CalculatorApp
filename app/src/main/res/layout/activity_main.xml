@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Result TextView -->
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="40sp"
+        android:gravity="end"
+        android:padding="16dp"
+        android:background="#EEEEEE" />
+
+    <!-- Button Grid -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:rowCount="5"
+        android:columnCount="4"
+        android:padding="8dp"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true">
+
+        <!-- Row 1 -->
+        <Button
+            android:id="@+id/buttonClear"
+            android:text="C"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp"
+             />
+
+        <Button
+            android:id="@+id/buttonDivide"
+            android:text="/"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonMultiply"
+            android:text="*"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonSubtract"
+            android:text="-"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <!-- Row 2 -->
+        <Button
+            android:id="@+id/button7"
+            android:text="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:text="8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:text="9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:text="+"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <!-- Row 3 -->
+        <Button
+            android:id="@+id/button4"
+            android:text="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:text="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:text="6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/buttonEquals"
+            android:text="="
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <!-- Row 4 -->
+        <Button
+            android:id="@+id/button1"
+            android:text="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:text="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button0"
+            android:text="0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:textSize="24sp" />
+
+    </GridLayout>
+</LinearLayout>
